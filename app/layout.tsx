@@ -18,21 +18,9 @@ export const metadata: Metadata = {
   description: 'Autonomous AI that forges premium digital products and sends real profit to your wallet',
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/logo.png',           // ← Your main logo as favicon
+    apple: '/logo.png',          // For iOS devices
+    shortcut: '/logo.png',       // For quick access
   },
 }
 
